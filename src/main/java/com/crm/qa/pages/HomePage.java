@@ -21,7 +21,7 @@ public class HomePage extends TestBase{
 	//get changed then cache memory of older version will get disturbed. And it will give you staleElementException.
 	
 	@FindBy(xpath="//font[contains(text(),'User: Naveen K')]")
-	//@CacheLookup  //(but we will not be using it here this time)
+	//@CacheLookup 
 	WebElement userNameLabel;  
 	
 	@FindBy(xpath="//a[contains(text(),'Contacts')]")
