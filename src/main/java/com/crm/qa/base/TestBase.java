@@ -32,7 +32,7 @@ import com.crm.qa.util.WebEventListener;
 			try{
 			prop = new Properties();
 			FileInputStream ip;
-			ip = new FileInputStream("C:/Users/archa/Downloads/Selenium Setup/Workspace Eclipse/CucumberPOM/src/main/java/com/crm/qa/config/config.properties");
+			ip = new FileInputStream("C:/Users/archa/Downloads/Selenium Setup/Workspace Eclipse/FreeCRMTest/src/main/java/com/crm/qa/config/config.properties");
 			prop.load(ip);
 			} catch (FileNotFoundException e1) {
 				// TODO Auto-generated catch block
